@@ -1,9 +1,9 @@
 interface PokemonCard {
-	name : string;
-	imgSrc? : URL;
+	name: string;
+	imgSrc?: string;
 }
 
-function PokemonCard ({pokemon}){
+function PokemonCard({ pokemon }) {
 	return (
 		<figure>
 			{pokemon.imgSrc ? (
@@ -15,7 +15,5 @@ function PokemonCard ({pokemon}){
 		</figure>
 	);
 }
-
-
 
 export default PokemonCard;
