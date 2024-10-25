@@ -23,6 +23,7 @@ function App() {
 
 const pokemonList = [
 	{
+		id: 1,
 		name: "bulbasaur",
 
 		imgSrc:
@@ -30,9 +31,11 @@ const pokemonList = [
 	},
 
 	{
+		id: 2,
 		name: "mew",
 	},
 	{
+		id: 3,
 		name: "charmander",
 
 		imgSrc:
@@ -40,6 +43,8 @@ const pokemonList = [
 	},
 
 	{
+		id: 4,
+
 		name: "squirtle",
 
 		imgSrc:
@@ -47,6 +52,7 @@ const pokemonList = [
 	},
 
 	{
+		id: 5,
 		name: "pikachu",
 
 		imgSrc:
